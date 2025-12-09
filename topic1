@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" nighteye="disabled">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Topic 1: HTML Fundamentals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <!-- Mobile menu toggle button -->
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="key-concepts.html">Key Concepts</a></li>
+        <li><a href="topic1.html" class="active">History</a></li>
+        <li><a href="topic2.html">Future</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="references.html">References</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Topic 1: History of the Browsers</h1>
+    <p>
+      Beginning in Geneva, Switzerland in the European Organization for Nuclear Research (CERN.)
+      Tim Berners-Lee created the first Web server and browser and was initially called the
+      “World Wide Web” later being called “Nexus.” This marked the beginning for future companies
+      to create their own browsers, later giving us open-source browsers in 2004 with the release
+      of FireFox by Modzilla. This sparked the competition to create other more polished open
+      source browsers such as Google releasing “Chromium” now known as “Chrome” that was praised
+      for its ease of use and faster speeds. But with Apple running on another operating system 
+      called “MacOS” and “IOS” led to them creating their own browser called “Safari in 2003” 
+      optimized for their own unique operating systems. 
+    </p>
+    <h2>What is OS?</h2>
+    <p>
+      The OS or "Operating System" is the foundation for bridging the gap between user and hardwear. 
+      If the CPU is the Brain of the computer then the OS would be nevervous system. The OS system is 
+      what all the hardwear uses to communcate with each other in order to work properly. 
+    </p>
+    <div class="info-box">
+      <h3>Key Concept</h3>
+      <p>
+        Differnt Operating systems are designed and made most efficent for differnt hardware.
+        Though you can use either browser on both they are optimized to run on their own OS.
+      </p>
+    </div>
+    <h2>Innovations in Browsers</h2>
+    <p>
+      Throughout the decades of hardwork and innovation there have been major yet unnoticed changes that
+      streamlined the entire game of Browsers. 
+    </p>
+    <ul>
+      <li><strong>Tab Browsing: </strong> Allow's user's to interact with multiple tab's at once</li>
+      <li><strong>Extentions:</strong> Enhances the overall experience and capability of browsers</li>
+      <li><strong>Secruity:</strong> Ensured saftey and privacy for all user's on the internet</li>
+     
+    </ul><!--find image when possible --><img
+      src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800"
+      alt="HTML code on a computer screen" />
+    <p class="text-center mt-2"><a href="index.html" class="btn">Back to Home</a><a href="topic2.html"
+        class="btn">Continue to Topic 2</a></p>
+  </main>
+  <footer>
+    <p>This is a class project for <a href="https://ksuweb.github.io/IT3203/" target="_blank">IT3203</a></p>
+    <p>© 2025 Web Development Tutorial | Created for Educational Purposes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
